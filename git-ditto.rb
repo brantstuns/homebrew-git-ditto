@@ -5,6 +5,6 @@ class GitDitto < Formula
   sha256 "c5bc92fc292bbcea821099d5a09ef497ae101184ef90dbc2abbefea76461b104"
 
   def install
-   ln_sf '/usr/local/Cellar/git-ditto', '/usr/local/bin/git-ditto'
+    bin.install 'bin/git-ditto'
   end
 end
